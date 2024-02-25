@@ -10,6 +10,15 @@ def grid_gen():
     print(f"Shape is : {shape}") 
     return (grid)
 def check_grid(grid):
-    pass
+    shape = grid.shape
+    i = shape [0]
+    j = shape [1]
+    zeros = 0 
+    for x in range(i):
+        for y in range(j): 
+            if grid [x][y] == 0: 
+                zeros = zeros +1
+    return (print (f'Number of zeros is : {zeros}'))
 if __name__ == '__main__':
     grid =grid_gen()
+    check_grid(grid)
