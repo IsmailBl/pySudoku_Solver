@@ -21,4 +21,4 @@ To get started with the Sudoku solver, follow these steps:
 Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/sudoku-solver.git
+   git clone https://github.com/IsmailBl//pySudoku_Solver
